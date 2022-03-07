@@ -30,5 +30,13 @@ To do this, lets use these two approaches:
 - https://github.com/elliotekj/DeltaE/blob/master/src/de2000.rs
 
 
+## How to make it fair
+1. Place an image in the canvas in JS
+2. Get the width & height
+3. Choose two pixels next to each other, offset by 2
+4. Get their respective HSL values
+5. %compute% the distance
+6. Goto 2
+
 # License
 MIT
